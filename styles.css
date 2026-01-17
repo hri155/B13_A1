@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height:60px;
+    width:139px;
+}
+.button{
+    background-color:#30B868;
+    height:44px;
+    width:164px;
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    border:none;
+    padding:12px 16px;
+    border-radius: 4px;;
+    
+}
+nav{
+    width:71%;
+    max-width: 1600px; 
+    margin:0px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
+nav .menubar{
+    display: flex;
+    list-style-type: none;
+    gap:32px;
+}
+nav .menubar a{
+    font-size: 16px;
+    color:#000000;
+    text-decoration: none;
+}
+#banner{
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    height:674px;
+    padding: 70px 120px 134px 120px;
+    justify-content:center;
+    align-items: center;
+}
+.banner-content{
+    text-align:center;
+    color:white;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color:#FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.banner-content h1{
+    margin-top: 16px;
+}
+#banner .banner-content{
+     max-width: 1360px;
+     margin:0 auto;
+}
+.early-text{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.color-green{
+    color:#30B868;
+}
+.badge{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    border-radius:1000px;
+    height: 36px;
+    width:229px;
+    padding: 8px 12px;
+    color:#30B868;
+    margin: 0 auto;
+}
+.pill-btn img{
+    width:16px;
+    height:16px;
+}
+
+.btn{
+    height: 52px;
+    width:251px;
+    background-color: #30B868;
+    box-sizing: border-box;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+   
+}
+.icon-play img{
+    width:20px;
+    height: 20px;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    width:198px;
+    gap:10px;
+    background: transparent;
+    box-sizing: border-box;
+    color:#FFFFFF;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    border:1px solid #FFFFFF;
+}
+#banner .mid-button{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    gap:16px;
+}
+#about{
+    padding-top: 65px;
+}
+#about .about-container{
+    width: 71%;
+    max-width:1600px;
+    height: 448px;
+    margin:0 auto;
+    text-align: center;
+    padding: 0px 120px 120px 120px;
+}
+.section-heading{
+    max-width: 1360px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.section-heading p{
+    font-size: 16px;
+    color:#627382;
+    margin-bottom: 44px;
+    line-height:44px ;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+}
+.about-info .info-card h4{
+    font-size: 24px;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.about-info .info-card p{
+    font-size: 16px;
+    color:#627382;
+
+}
+.about-info .info-card img{
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+#solution{
+    padding:120px 120px;
+}
+#solution .solution-container{
+    max-width:1360px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#solution .solution-container .image-add{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+    margin-right: 60px;
+}
+.text-add .clr{
+    margin-bottom: 16px;
+    color:#30B868;
+}
+#solution .solution-container h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#solution .solution-container p{
+    font-size: 16px;
+    color:#627382 ;
+    margin-bottom: 40px;
+}
+.check-circle li{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    list-style: none;
+}
+.think-more{
+    height:385px ;
+    width:1360px ;
+    padding:80px 40px;
+}
+#think .think-more{
+    width: 71%;
+    max-width:1600px;
+    height: 507px;
+    margin:0 auto;
+    text-align: center;
+}
+#think .think-more h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+#think .think-more p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    color:#627382;
+}
+.get-access{
+    height:52px ;
+    width:194px ;
+    padding:12px 16px;
+    background-color: #30B868;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 4px;
+}
+.get-access{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.get-access .get-btn{
+    align-items: center;
+    gap:10px;
+}
+.get-btn{
+    height: 20px;
+    width:20px ;
+}
+.think-more p{
+    font-size: 16px;
+    color:#627382;
+    margin-top: 16px;
+}
+#footer-container{
+    padding: 120px 120px 30px 120px;
+    background-color:rgba(0, 25, 49, 1);
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed grey;
+
+}
+.footer-logo img{
+    height:60px ;
+    width:139px ;
+}
+.social{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+}
+
+.copy-right{
+    color:#FAFAFA;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
